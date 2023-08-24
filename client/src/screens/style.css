@@ -1,0 +1,88 @@
+/* Apply styles to the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #422ba9;
+}
+
+/* Style the container */
+div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the title */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the labels */
+label {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/* Style the input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Change button color on hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* z index box */
+
+.rcvadv-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.rcvadv-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    z-index: 1;
+    /* Start with a higher value */
+    transition: right 0.3s;
+    /* Add a smooth transition for animation */
+}

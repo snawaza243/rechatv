@@ -1,0 +1,36 @@
+/* Apply styles to the entire navbar */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the logo */
+  .logo {
+    font-size: 24px;
+  }
+  
+  /* Style the navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Style the navigation links (anchors) */
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  /* Change link color on hover */
+  .nav-links a:hover {
+    color: #ffc107;
+  }
+  
